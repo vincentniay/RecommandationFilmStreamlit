@@ -18,3 +18,5 @@ titanic2\
 west
 ## Installation librairies : 
 requirements
+## Lien application :
+https://share.streamlit.io/vincentniay/recommandationfilmstreamlit/main/recommandation_films.py
