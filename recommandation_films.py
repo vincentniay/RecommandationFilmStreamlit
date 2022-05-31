@@ -14,20 +14,19 @@ Films Recommendation Script Streamlit
 ############################################################
 
 import streamlit as st
+from streamlit_lottie import st_lottie,st_lottie_spinner
+import streamlit.components.v1 as components
+from streamlit_option_menu import option_menu
 import pandas as pd
 import numpy as np
 from sklearn.neighbors import NearestNeighbors
 from PIL import Image
-from streamlit_option_menu import option_menu
 import os
 import random
-from streamlit_lottie import st_lottie
-from streamlit_lottie import st_lottie_spinner
 import requests
 import json
-import streamlit.components.v1 as components
 from IPython.display import HTML
-from st_aggrid import AgGrid
+
 pd.set_option('display.colheader_justify', 'center')
 
 
